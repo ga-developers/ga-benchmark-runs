@@ -1,0 +1,375 @@
+{
+  "context": {
+    "date": "2020-02-03 18:55:30",
+    "executable": "/mnt/c/Users/laffe/Repositories/GitHub/ga-developers/ga-benchmark/build/GABenchmark_BinaryOperations_ConformalModel_D3_LEFTGRADE3_RIGHTGRADE0_GATL",
+    "num_cpus": 8,
+    "mhz_per_cpu": 1992,
+    "cpu_scaling_enabled": false,
+    "caches": [
+    ],
+    "load_avg": [0.52,0.58,0.59],
+    "library_build_type": "release"
+  },
+  "benchmarks": [
+    {
+      "name": "GABM_BinaryOperation_Addition/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_Addition/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 4.3410001671873034e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_Addition/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_Addition/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 4.1399995097890493e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_Addition/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_Addition/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 9.8083174680579193e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_CommutatorProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_CommutatorProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 1.4610000653192399e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_CommutatorProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_CommutatorProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 1.4599994756281377e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_CommutatorProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_CommutatorProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 1.2689827339430662e-08,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_DotProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_DotProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 4.4936664441289994e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_DotProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_DotProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 4.4499989598989483e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_DotProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_DotProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 2.5644059672988244e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_GeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_GeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 4.4623331632465126e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_GeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_GeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 4.4499989598989483e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_GeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_GeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 8.0801236860038654e-08,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_HestenesInnerProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_HestenesInnerProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 1.4586666172059874e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_HestenesInnerProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_HestenesInnerProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 1.4599994756281377e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_HestenesInnerProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_HestenesInnerProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 7.7606782747020897e-09,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_InverseGeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_InverseGeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 5.4243334064570574e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_InverseGeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_InverseGeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 5.2100003813393414e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_InverseGeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_InverseGeometricProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 5.3293360088905227e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_LeftContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_LeftContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 1.6049999976530672e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_LeftContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_LeftContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 1.4400022337213158e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_LeftContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_LeftContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 4.8909298553382893e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_OuterProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_OuterProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 3.9656664982127647e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_OuterProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_OuterProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 3.7499994505196814e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_OuterProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_OuterProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 6.7057239120394933e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_RegressiveProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_RegressiveProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 1.5659999917261304e-06,
+      "cpu_time": 5.2083333333333337e-05,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_RegressiveProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_RegressiveProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 1.4400022337213158e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_RegressiveProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_RegressiveProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 4.1477504494579914e-07,
+      "cpu_time": 2.8527216536727401e-04,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_RightContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_RightContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 4.0599997737444937e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_RightContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_RightContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 3.7749996408820157e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_RightContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_RightContraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 6.8412062747259326e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_ScalarProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_ScalarProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 1.4369998825713991e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_ScalarProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_ScalarProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 1.4399993233382702e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_ScalarProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_ScalarProduct/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 6.5124520586470318e-09,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_Subtraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_BinaryOperation_Subtraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 4.1733332909643646e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_Subtraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_median",
+      "run_name": "GABM_BinaryOperation_Subtraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 4.1699997382238509e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_BinaryOperation_Subtraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_BinaryOperation_Subtraction/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:GATL/Model:0x01/D:3/LeftGrade:3/RightGrade:0/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 3.6039045737049035e-08,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "context": {
+    "date": "2020-02-04 03:28:24",
+    "executable": "/mnt/c/Users/laffe/Repositories/GitHub/ga-developers/ga-benchmark/build/GABenchmark_UnaryOperations_EuclideanModel_D5_GRADE1_TbGAL",
+    "num_cpus": 8,
+    "mhz_per_cpu": 1992,
+    "cpu_scaling_enabled": false,
+    "caches": [
+    ],
+    "load_avg": [0.52,0.58,0.59],
+    "library_build_type": "release"
+  },
+  "benchmarks": [
+    {
+      "name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 6.5106666685702895e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 6.1700004152953626e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 1.8659567142074846e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 1.8337033281568438e-04,
+      "cpu_time": 1.5625000000000003e-04,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 1.8517999997129663e-04,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 8.0492923021480287e-06,
+      "cpu_time": 4.7676340098338230e-04,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 6.4073336155464245e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 6.2250008340924977e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 5.3899566586135023e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 6.5593332207451262e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 6.0949998442083599e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 1.5530299837553577e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 6.7599999601952728e-06,
+      "cpu_time": 5.2083333333333337e-05,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 6.3600018620491028e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 1.2930613020837402e-06,
+      "cpu_time": 2.8527216536727401e-04,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 6.3406667322851716e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 6.0150006902404131e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 1.1265663394515752e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 2.2486669089024263e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 2.2499996703118084e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 2.2396705562348301e-08,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 6.1573334581529101e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 6.0399994254112240e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 4.6313009638131165e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 5.9710001611771681e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 5.9699988923966886e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 1.2958663911993966e-08,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 1.9379900011699645e-04,
+      "cpu_time": 2.0833333333333335e-04,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 1.9430499960435555e-04,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:TbGAL/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 5.6169972909146193e-06,
+      "cpu_time": 5.4022797444025071e-04,
+      "time_unit": "ms"
+    }
+  ]
+}

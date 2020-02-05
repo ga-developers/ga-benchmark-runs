@@ -1,0 +1,615 @@
+{
+  "context": {
+    "date": "2020-02-04 03:28:43",
+    "executable": "/mnt/c/Users/laffe/Repositories/GitHub/ga-developers/ga-benchmark/build/GABenchmark_UnaryOperations_EuclideanModel_D5_GRADE1_Versor",
+    "num_cpus": 8,
+    "mhz_per_cpu": 1992,
+    "cpu_scaling_enabled": false,
+    "caches": [
+    ],
+    "load_avg": [0.52,0.58,0.59],
+    "library_build_type": "release"
+  },
+  "benchmarks": [
+    {
+      "name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 2.1743333976094919e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 2.0699982997030021e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_CliffordConjugation/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 5.3281740137279257e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 2.4040001638544102e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 2.3900007363408805e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_Dualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 6.9411395207460433e-08,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 2.1076667083737750e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 2.1000014385208488e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_GradeInvolution/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 3.5397492849870469e-08,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 5.3996666489789883e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 5.3600000683218244e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_Inversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 1.9196761702269440e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 7.7356665860861534e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 7.5199990533292305e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_Normalization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 1.0076081258550192e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 1.6869997489266096e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 1.6499980119988322e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_Reversion/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 2.0740032682207209e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 2.0800000250649949e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 2.0799983758479356e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_SquaredReverseNorm/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 1.1447292028790162e-08,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 2.0450000495960316e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 1.9099999917671086e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_UnaryMinus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 4.7739042311600536e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_name": "GABM_UnaryOperation_UnaryPlus/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "iteration",
+      "error_occurred": true,
+      "error_message": "OPERATION_NOT_IMPLEMENTED",
+      "iterations": 0,
+      "real_time": 0.0000000000000000e+00,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_mean",
+      "run_name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "mean",
+      "iterations": 30,
+      "real_time": 2.5243332493118940e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_median",
+      "run_name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "median",
+      "iterations": 30,
+      "real_time": 2.2199994418770077e-06,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    },
+    {
+      "name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30_stddev",
+      "run_name": "GABM_UnaryOperation_Undualization/SystemName:Linux/SystemVersion:4.4.0-18362-Microsoft/CompilerID:GNU/CompilerVersion:7.4.0/Solution:Versor/Model:0x02/D:5/Grade:1/iterations:10000/repeats:30",
+      "run_type": "aggregate",
+      "aggregate_name": "stddev",
+      "iterations": 30,
+      "real_time": 7.8866838988893976e-07,
+      "cpu_time": 0.0000000000000000e+00,
+      "time_unit": "ms"
+    }
+  ]
+}
