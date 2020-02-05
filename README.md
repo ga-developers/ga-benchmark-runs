@@ -6,4 +6,4 @@ Latest results of the [`ga-benchmark`](https://github.com/ga-developers/ga-bench
 - Ranking
   - [Using the gold first method](https://ga-developers.github.io/ga-benchmark-runs/2020.02.05/ranking_1.html)
 - Performance Charts
-  - [Algorithms assuming Conformal 3-D](https://ga-developers.github.io/ga-benchmark-runs/2020.02.05/performance_charts_3.html)
+  - [For algorithms assuming the conformal model of 3D Euclidean space](https://ga-developers.github.io/ga-benchmark-runs/2020.02.05/performance_charts_3.html)
