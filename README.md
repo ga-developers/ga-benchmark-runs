@@ -1,5 +1,4 @@
 # ga-benchmark-runs
-
 Latest runs of the [ga-benchmark](https://github.com/ga-developers/ga-benchmark).
 
 ## 05/02/2020
