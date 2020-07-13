@@ -1,4 +1,4 @@
-Latest results of the [`ga-benchmark`](https://github.com/ga-developers/ga-benchmark).
+Latest results according to the [`ga-benchmark`](https://github.com/ga-developers/ga-benchmark).
 
 ## February 5th, 2020
 
